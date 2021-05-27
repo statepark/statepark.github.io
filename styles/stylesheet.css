@@ -50,6 +50,16 @@
         
     }
 
+    a{
+        text-decoration: none;
+        font-weight: bolder;
+        color: grey;
+    }
+
+    a:hover{
+        color:khaki;
+    }
+
     li a {
         display: block;
         color: grey;
@@ -63,24 +73,20 @@
         color:cornflowerblue;
         background-color:lightgray;
     }
-
-
     
     .image{
-        z-index: 3;
+        z-index: 5;
         grid-column:2/4;
         grid-row: 4/15;
-        text-align: center;
         border-radius:12px;
         padding:20px;
+        text-align: center;
         background-color:whitesmoke;
-
-        font-family: 'Source Sans Pro', sans-serif;
     }
     .bio{
         z-index: 2;
         grid-column: span 5/-4;
-        grid-row: 8/20;
+        grid-row: 8/17;
         border-radius: 12px;
         padding: 20px;
         font-family: 'Source Sans Pro', sans-serif;
@@ -112,10 +118,21 @@
 
     }
 
+    .video{
+        z-index: 3;
+        grid-column: 2/ span 3;
+        grid-row: 16/20;
+        border-radius: 12px;
+        padding: 10px;
+        background-color: whitesmoke;
+
+
+    }
+
     .foot{
         z-index: 2;
-        grid-column: col-start/span 12;
-        grid-row: 25/30;
+        grid-column:col-start/span 12;
+        grid-row: 25;
         color: lightslategray;
         font-family: 'Source Sans Pro', sans-serif;
         font-size: 18;
@@ -139,11 +156,12 @@
 
         .bus-tracker{
             z-index: 2;
-            grid-column: 8;
+            grid-column:8;
             grid-row: 6/11;
         }
      
     }
+
 
 
 
