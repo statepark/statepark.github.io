@@ -84,7 +84,7 @@
         background-color:whitesmoke;
     }
     .bio{
-        z-index: 2;
+        z-index: 6;
         grid-column: span 5/-4;
         grid-row: 8/17;
         border-radius: 12px;
